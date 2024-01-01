@@ -1,0 +1,36 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "Lab 1 for Node.js course",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "npx prettier . --check",
+    "format:fix": "npx prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Papsanly/node-lab1.git"
+  },
+  "author": "Papsanly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Papsanly/node-lab1/issues"
+  },
+  "homepage": "https://github.com/Papsanly/node-lab1#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-sonarjs": "^0.23.0",
+    "prettier": "3.1.1"
+  }
+}
