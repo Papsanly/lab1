@@ -1,3 +1,3 @@
-let i;
-i = 0 + 3;
-console.log(i);
+export default async function handler(request, response) {
+  return response.status(200).text("Hello, World");
+}
