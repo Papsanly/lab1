@@ -1,3 +1,3 @@
 export default async function handler(request, response) {
-  return response.status(200).text("Hello, World");
+  return response.status(200).json({ message: "Hello, World" });
 }
